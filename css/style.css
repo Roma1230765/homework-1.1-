@@ -80,11 +80,19 @@
     gap: 50px;
     margin-left: auto;
   }
+
+  .envelope-icon:hover {
+    fill: var(--accent-color);
+  }
   
   .envelope-icon {
     all: unset; 
     width: 16px;
     height: 12px;
+  }
+
+  .smartphone-icon:hover {
+    background-color: var(--accent-color);
   }
 
   .smartphone-icon {
@@ -281,6 +289,18 @@
     letter-spacing: 0.48px;
     text-align: center;
   }
+
+  .vraper-list:hover {
+    background-color: var(--accent-color);
+  }
+  .vraper-list {
+    display: flex;
+    gap: 34px;
+  justify-content: center;
+  
+}
+
+
   
   footer {
     background-color: var(--footer-background);
@@ -297,6 +317,11 @@
   .footer-list {
     margin-top: 9px;
   }
+
+.list-icon {
+  margin-left: 156px;
+}
+
   
   .footer-web {
     color: var(--accent-color);
@@ -335,7 +360,30 @@
   .footer-item {
     margin-top: 9px;
   }
+
+  .item-icon {
+    margin-left: 70px;
+    margin-bottom: 164px;
+
+  }
+
+  .footer-title {
+    color:var(--main-background);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+  }
   
+.footer-icon {
+  height: 20px;
+  width: 20px;
+  gap: 34px;
+  margin-top: 32px;
+}
   
   
   
