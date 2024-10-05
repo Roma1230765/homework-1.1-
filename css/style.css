@@ -300,6 +300,14 @@
   
 }
 
+.customer-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 236px;
+}
+
+
+
 
   
   footer {
@@ -376,6 +384,8 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-left: 70px;
+margin-top: 72px;
   }
   
 .footer-icon {
