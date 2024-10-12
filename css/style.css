@@ -86,7 +86,7 @@ body {
   all: unset;
   width: 16px;
   height: 12px;
- 
+
 }
 
 .smartphone-icon:hover {
@@ -98,6 +98,7 @@ body {
   width: 10px;
   height: 16px;
 }
+
 .contact-link:hover {
   color: var(--accent-color);
 }
@@ -111,16 +112,15 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
     url(../img/zal.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
   background-size: cover;
 }
+
 .hero-title {
   color: var(--main-background);
   width: 696px;
@@ -135,6 +135,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .hero-button {
   background-color: var(--accent-color);
   color: var(--main-background);
@@ -363,8 +364,16 @@ footer {
 }
 
 .item-icon {
-  margin-left: 70px;
-  margin-bottom: 164px;
+  /* margin-left: 70px;
+  margin-bottom: 164px; */
+padding: 12px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.10);
+width: 44px;
+height: 44px;
+justify-content: center;
+align-items: center;
+display: flex;
 }
 
 .customer-list {
@@ -379,15 +388,18 @@ footer {
   border: 1px solid #afb1b8;
   width: 170px;
   height: 80px;
-  
+
 }
 
 .customer-icon:hover {
- fill: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .list-icon {
   border: 1px solid red;
+  display: flex;
+  gap: 10px;
+  
 }
 
 .footer-title {
@@ -408,30 +420,21 @@ footer {
   margin-top: 32px;
 }
 
-.footer-instagram {
-  height: 20px;
-  width: 20px;
-  gap: 34px;
-  margin-top: 32px;
+.social-wrapper {
+  border: 1px solid red;
+  margin-left: 70px;
+} 
+
+.footer-icon {
+  height: 30px;
+  width: 30px;
+  fill:#fff;
 }
 
-.footer-twitter {
-  height: 20px;
-  width: 20px;
-  gap: 34px;
-  margin-top: 32px;
+.item-icon:hover {
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
-.footer-facebook {
-  height: 20px;
-  width: 20px;
-  gap: 34px;
-  margin-top: 32px;
-}
 
-.footer-linkedin {
-  height: 20px;
-  width: 20px;
-  gap: 34px;
-  margin-top: 32px;
-}
+
