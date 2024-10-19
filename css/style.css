@@ -391,8 +391,10 @@ display: flex;
 
 }
 
-.customer-icon:hover {
-  fill: var(--accent-color);
+.customer-item:hover {
+fill:var(--accent-color);
+  /* background-color: var(--accent-color); */
+
 }
 
 .list-icon {
